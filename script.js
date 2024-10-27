@@ -8,12 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
     word.style.display = "none";
   }, 2000);
 });
+function specialNoteClick() {
+  alert("Thank you for clicking the special note!");
+}
 
 function createRaindrop() {
   const body = document.querySelector("body");
   const xPosition = Math.random() * window.innerWidth;
   const delay = Math.random() * 5;
   const duration = Math.random() * 2 + 2;
+
 
   const rainDrop = document.createElement("div");
   rainDrop.className = "rain";
@@ -29,3 +33,4 @@ function createRaindrop() {
 }
 
 setInterval(createRaindrop, 100);
+
