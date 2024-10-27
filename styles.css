@@ -109,6 +109,7 @@ h1 {
   transform: rotate(-10deg);
 }
 /* Existing styles */
+/* Existing styles */
 
 /* Positioning for New Flowers */
 .f-wrapper--4 {
@@ -126,7 +127,7 @@ h1 {
 /* Special Note Styling */
 .special-note {
   color: white;
-  font-size: 10rem;
+  font-size: 1.5rem;
   font-family: "Dancing Script", cursive;
   position: absolute;
   bottom: 10%;
@@ -141,6 +142,7 @@ h1 {
     opacity: 1;
   }
 }
+
 
 .f-wrapper--3 .flower__line {
   height: 45vmin;
