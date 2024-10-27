@@ -125,15 +125,29 @@ h1 {
 
 /* Special Note Styling */
 .special-note {
-  color: white;
-  font-size: 1.5rem;
+  width: 80%;
+  max-width: 400px;
+  background-color: #faf0e6; /* Light parchment color */
+  border: 2px solid #d2b48c; /* Light brown border for letter effect */
+  padding: 2rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
   font-family: "Dancing Script", cursive;
-  position: absolute;
-  bottom: 10%;
-  width: 100%;
+  color: #333;
   text-align: center;
-  opacity: 0;
-  animation: fadeIn 2s ease 3s forwards;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.special-note:hover {
+  background-color: #f5deb3; /* Darken on hover */
+  transform: scale(1.05);
+}
+
+.special-note:active {
+  transform: scale(1);
 }
 
 @keyframes fadeIn {
